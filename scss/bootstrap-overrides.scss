@@ -1,72 +1,44 @@
-/*!
- * Bootstrap v4.2.1 (https://getbootstrap.com/)
- * Copyright 2011-2018 The Bootstrap Authors
- * Copyright 2011-2018 Twitter, Inc.
- * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
- */
- .btn-danger {
-    color: #fff;
-    background-color: #F85A3E;
-    border-color: #F85A3E;
-  }
-  .btn-danger:hover {
-    color: #fff;
-    background-color: #F85A3E;
-    border-color: #F85A3E;
-  }
-  .btn-danger:focus, .btn-danger.focus {
-    box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
-  }
-  .btn-danger.disabled, .btn-danger:disabled {
-    color: #fff;
-    background-color: #F85A3E;
-    border-color: #F85A3E;
-  }
-  .btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
-    color: #fff;
-    background-color: #F85A3E;
-    border-color: #F85A3E;
-  }
-  .btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
-    box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
-  }
-
-
- @import "bootstrap/functions";
- @import "bootstrap/variables";
- @import "bootstrap/mixins";
- @import "bootstrap/root";
- @import "bootstrap/reboot";
- @import "bootstrap/type";
- @import "bootstrap/images";
- @import "bootstrap/code";
- @import "bootstrap/grid";
- @import "bootstrap/tables";
- @import "bootstrap/forms";
- @import "bootstrap/buttons";
- @import "bootstrap/transitions";
- @import "bootstrap/dropdown";
- @import "bootstrap/button-group";
- @import "bootstrap/input-group";
- @import "bootstrap/custom-forms";
- @import "bootstrap/nav";
- @import "bootstrap/navbar";
- @import "bootstrap/card";
- @import "bootstrap/breadcrumb";
- @import "bootstrap/pagination";
- @import "bootstrap/badge";
- @import "bootstrap/jumbotron";
- @import "bootstrap/alert";
- @import "bootstrap/progress";
- @import "bootstrap/media";
- @import "bootstrap/list-group";
- @import "bootstrap/close";
- @import "bootstrap/toasts";
- @import "bootstrap/modal";
- @import "bootstrap/tooltip";
- @import "bootstrap/popover";
- @import "bootstrap/carousel";
- @import "bootstrap/spinners";
- @import "bootstrap/utilities";
- @import "bootstrap/print";
  
+ .btn-danger {
+  color: black;
+  background-color: #F85A3E;
+  border-color: #F85A3E;
+}
+.btn-danger:hover {
+  color: #fff;
+  background-color: #DE1A1A;
+  border-color: #DE1A1A;
+}
+.btn-danger:focus, .btn-danger.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
+}
+.btn-danger.disabled, .btn-danger:disabled {
+  color: #fff;
+  background-color: #DE1A1A;
+  border-color: #DE1A1A;
+}
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+  color: black;
+  background-color: #DE1A1A;
+  border-color: #DE1A1A;
+}
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
+}
+
+.jumbotron {
+  padding: $jumbotron-padding ($jumbotron-padding / 2);
+  margin-bottom: $jumbotron-padding;
+  background-color: $3AB795;
+  @include border-radius($border-radius-lg);
+
+  @include media-breakpoint-up(sm) {
+    padding: ($jumbotron-padding * 2) $jumbotron-padding;
+  }
+}
+
+.jumbotron-fluid {
+  padding-right: 0;
+  padding-left: 0;
+  @include border-radius(0);
+}
