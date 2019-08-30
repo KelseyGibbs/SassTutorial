@@ -5,6 +5,38 @@
  * Copyright 2011-2018 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+.btn-danger {
+  color: #fff;
+  background-color: #F85A3E;
+  border-color: #D62231;
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #b51d29;
+  border-color: #aa1b27;
+}
+
+.btn-danger:focus, .btn-danger.focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
+}
+
+.btn-danger.disabled, .btn-danger:disabled {
+  color: #fff;
+  background-color: #D62231;
+  border-color: #D62231;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active, .show > .btn-danger.dropdown-toggle {
+  color: #fff;
+  background-color: #aa1b27;
+  border-color: #9f1924;
+}
+
+.btn-danger:not(:disabled):not(.disabled):active:focus, .btn-danger:not(:disabled):not(.disabled).active:focus, .show > .btn-danger.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(220, 67, 80, 0.5);
+}
+
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -9512,4 +9544,4 @@ h3 {
   }
 }
 
-/*# sourceMappingURL=bootstrap.css.map */
+/*# sourceMappingURL=mycustom.css.map */
